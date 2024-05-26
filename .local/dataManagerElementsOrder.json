@@ -1,0 +1,83 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dtConfigs&",
+        "dtSummary&",
+        "dtResults&",
+        "LastEmailRecieved&",
+        "RecievedMail&",
+        "EmailProcessStart&",
+        "EmailProcessEnd&",
+        "IsProcessing&"
+      ],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dtConfigs&Sequence_1",
+        "dtSummary&Sequence_1",
+        "dtResults&Sequence_1",
+        "LastEmailRecieved&Sequence_1",
+        "RecievedMail&Sequence_1",
+        "EmailProcessStart&Sequence_1",
+        "EmailProcessEnd&Sequence_1",
+        "IsProcessing&Sequence_1",
+        "Timer&Sequence_8"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "TriggerEmail.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dtConfigs&Sequence_1",
+        "dtSummary&Sequence_1",
+        "dtResults&Sequence_1",
+        "LastEmailRecieved&Sequence_1",
+        "RecievedMail&Sequence_1",
+        "EmailProcessStart&Sequence_1",
+        "EmailProcessEnd&Sequence_1",
+        "IsProcessing&Sequence_1",
+        "Messages&Sequence_8",
+        "dtAttachData&Sequence_8",
+        "SaveAttachs&Sequence_14",
+        "TestAttach&Sequence_27",
+        "dtAutExerData&Sequence_32"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "LoginHideMe.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "NotChecked&Sequence_18",
+        "CaptchaSrc&Sequence_13",
+        "CaptchaText&Sequence_14",
+        "LoadedImg&Sequence_14",
+        "dtConfigs&Sequence_1",
+        "dtSummary&Sequence_1",
+        "dtResults&Sequence_1",
+        "LastEmailRecieved&Sequence_1",
+        "RecievedMail&Sequence_1",
+        "EmailProcessStart&Sequence_1",
+        "EmailProcessEnd&Sequence_1",
+        "IsProcessing&Sequence_1",
+        "AppElement&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

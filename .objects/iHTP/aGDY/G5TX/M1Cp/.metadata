@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Verified",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "M1CpaEqAEkOhL2AreUXiYw",
+  "Reference": "MSf_1Qm2bk-GJpSvQz1yBQ/M1CpaEqAEkOhL2AreUXiYw",
+  "ParentRef": "MSf_1Qm2bk-GJpSvQz1yBQ/G5TX9BkB3kOSoaUlgyMs_Q",
+  "Created": "2024-05-26T03:37:52.241482Z",
+  "Updated": "2024-05-26T03:42:18.8933812Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

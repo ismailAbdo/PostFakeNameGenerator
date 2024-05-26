@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Chrome: Automation Exercise - Signup / Login",
+  "Type": "Screen",
+  "Id": "evQfDkA_QEKXvj7QeavaEQ",
+  "Reference": "MSf_1Qm2bk-GJpSvQz1yBQ/evQfDkA_QEKXvj7QeavaEQ",
+  "ParentRef": "MSf_1Qm2bk-GJpSvQz1yBQ/VFLIlaeEfkS-OR7aBcPVMg",
+  "Created": "2024-05-17T14:59:06.8897728Z",
+  "Updated": "2024-05-17T15:01:54.701687Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

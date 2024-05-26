@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Company",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Id": "jGkRaV6Lw0K7rC8V7XfDiQ",
+  "Reference": "MSf_1Qm2bk-GJpSvQz1yBQ/jGkRaV6Lw0K7rC8V7XfDiQ",
+  "ParentRef": "MSf_1Qm2bk-GJpSvQz1yBQ/ZSmTkh4epEmxV82Kh7Vsmw",
+  "Created": "2024-05-20T21:52:37.3843785Z",
+  "Updated": "2024-05-20T21:53:30.3316743Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

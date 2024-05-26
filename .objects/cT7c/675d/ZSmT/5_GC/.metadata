@@ -1,0 +1,13 @@
+﻿{
+  "Name": "BirthDay",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Id": "5_GC2d0gwEGHfm7eVW9yhg",
+  "Reference": "MSf_1Qm2bk-GJpSvQz1yBQ/5_GC2d0gwEGHfm7eVW9yhg",
+  "ParentRef": "MSf_1Qm2bk-GJpSvQz1yBQ/ZSmTkh4epEmxV82Kh7Vsmw",
+  "Created": "2024-05-20T21:52:36.792286Z",
+  "Updated": "2024-05-20T21:52:36.792286Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

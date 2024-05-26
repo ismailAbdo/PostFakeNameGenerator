@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="pggCJ2xo70ifBF3XBOjE4w" Reference="MSf_1Qm2bk-GJpSvQz1yBQ/y2ZveoJBMEagBJeUildiLw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="44557fb8-b487-442e-86ad-3b260097dc24" CvElementArea="903, 939, 382, 60" CvType="InputBox" DesignTimeRectangle="906, 927, 370, 50" DesignTimeScaleFactor="1.5" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='mtcaptcha-iframe-1' tag='IFRAME' /&gt;&lt;webctrl id='mtcap-inputtext-1' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='mtcaptcha-iframe-1' tag='IFRAME' /&gt;&lt;webctrl id='mtcap-inputtext-1' tag='INPUT' type='text' class='mtcap-noborder mtcap-inputtext mtcap-inputtext-custom' placeholder='Enter text from image' aaname='' /&gt;" Guid="b0427c02-caa5-4d99-acda-32aee0f1be32" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Log in | hide.me' /&gt;" SearchSteps="FuzzySelector" Version="V3" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="2ea89919db2740d6aa4cc5f8fea30d2f.png" xmlns="">0hVvz341Lo0ezkCw3RHojFA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

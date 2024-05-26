@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Address *",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "XzGAPRM_DE6T5tW46uuE1Q",
+  "Reference": "MSf_1Qm2bk-GJpSvQz1yBQ/XzGAPRM_DE6T5tW46uuE1Q",
+  "ParentRef": "MSf_1Qm2bk-GJpSvQz1yBQ/evQfDkA_QEKXvj7QeavaEQ",
+  "Created": "2024-05-17T14:59:08.2950102Z",
+  "Updated": "2024-05-17T14:59:08.2950102Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

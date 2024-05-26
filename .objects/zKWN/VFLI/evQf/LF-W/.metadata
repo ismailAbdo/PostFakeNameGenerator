@@ -1,0 +1,13 @@
+﻿{
+  "Name": "State *",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "LF-W3BM_BUqPV8JqFTjoBg",
+  "Reference": "MSf_1Qm2bk-GJpSvQz1yBQ/LF-W3BM_BUqPV8JqFTjoBg",
+  "ParentRef": "MSf_1Qm2bk-GJpSvQz1yBQ/evQfDkA_QEKXvj7QeavaEQ",
+  "Created": "2024-05-17T14:59:08.8384972Z",
+  "Updated": "2024-05-17T14:59:08.8384972Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

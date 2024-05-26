@@ -1,0 +1,16 @@
+﻿{
+  "Name": "AccDeleted",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "JvFrSZtw-kepeigUmWiesQ",
+  "Reference": "MSf_1Qm2bk-GJpSvQz1yBQ/JvFrSZtw-kepeigUmWiesQ",
+  "ParentRef": "MSf_1Qm2bk-GJpSvQz1yBQ/evQfDkA_QEKXvj7QeavaEQ",
+  "Created": "2024-05-17T15:03:53.6628277Z",
+  "Updated": "2024-05-17T15:04:38.4893198Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

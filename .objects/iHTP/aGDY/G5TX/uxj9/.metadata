@@ -1,0 +1,13 @@
+﻿{
+  "Name": "RefreshCaptcha",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "uxj9y5ROl0yQiEhMOi4oMQ",
+  "Reference": "MSf_1Qm2bk-GJpSvQz1yBQ/uxj9y5ROl0yQiEhMOi4oMQ",
+  "ParentRef": "MSf_1Qm2bk-GJpSvQz1yBQ/G5TX9BkB3kOSoaUlgyMs_Q",
+  "Created": "2024-05-26T03:37:52.1708357Z",
+  "Updated": "2024-05-26T03:37:52.1708357Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

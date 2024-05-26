@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Username",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Id": "aBdoXvj7-0-eveGxNOrGfQ",
+  "Reference": "MSf_1Qm2bk-GJpSvQz1yBQ/aBdoXvj7-0-eveGxNOrGfQ",
+  "ParentRef": "MSf_1Qm2bk-GJpSvQz1yBQ/ZSmTkh4epEmxV82Kh7Vsmw",
+  "Created": "2024-05-20T21:52:37.0444803Z",
+  "Updated": "2024-05-20T21:52:37.0444803Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

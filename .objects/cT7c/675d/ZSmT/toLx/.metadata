@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Generate",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "toLxVDInMkqNoWdl045lsg",
+  "Reference": "MSf_1Qm2bk-GJpSvQz1yBQ/toLxVDInMkqNoWdl045lsg",
+  "ParentRef": "MSf_1Qm2bk-GJpSvQz1yBQ/ZSmTkh4epEmxV82Kh7Vsmw",
+  "Created": "2024-05-20T21:52:36.0147947Z",
+  "Updated": "2024-05-20T21:52:36.0147947Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

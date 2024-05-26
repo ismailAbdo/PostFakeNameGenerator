@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Log me in",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "rO0dxw9vc0i2-SfhfYWjPw",
+  "Reference": "MSf_1Qm2bk-GJpSvQz1yBQ/rO0dxw9vc0i2-SfhfYWjPw",
+  "ParentRef": "MSf_1Qm2bk-GJpSvQz1yBQ/G5TX9BkB3kOSoaUlgyMs_Q",
+  "Created": "2024-05-21T00:06:33.4248538Z",
+  "Updated": "2024-05-21T00:06:33.4248538Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

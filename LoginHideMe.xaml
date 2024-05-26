@@ -1,0 +1,529 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="LoginHideMe" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1430.6666666666667,6160" sap2010:WorkflowViewState.IdRef="LoginHideMe_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p="http://schemas.uipath.com/workflow/activities/ocr" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uv="clr-namespace:UiPath.Vision;assembly=UiPath.Vision" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.Vision.OCR</x:String>
+      <x:String>UiPath.OCR.Contracts</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.OCR.Contracts.Activities</x:String>
+      <x:String>UiPath.OCR.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Activities.Runtime.Collections</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.CV</x:String>
+      <x:String>UiPath.Shared.ObjectLibrary</x:String>
+      <x:String>UiPath.CV.Activities</x:String>
+      <x:String>UiPath.CV.Activities.Interfaces</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Linq.Async.Queryable</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
+      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Contracts</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Core</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Vision.Core</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Vision</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.Watcher</AssemblyReference>
+      <AssemblyReference>System.IO.Packaging</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.AccessControl</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.DriveInfo</AssemblyReference>
+      <AssemblyReference>UiPath.CV</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="LoginHideMe" sap:VirtualizedContainerService.HintSize="1440.6666666666667,6095.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="ui:UiElement" Name="AppElement" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="IfOpenedByAppBrowser" DisplayName="Use Browser Chrome: Log in | hide.me" sap:VirtualizedContainerService.HintSize="1378.6666666666667,6007.333333333333" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OutUiElement="[AppElement]" ScopeGuid="83820deb-2fce-4611-be48-855517b81bac" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1344.6666666666667,5765.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Sign In'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="1282.6666666666667,292.6666666666667" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="83820deb-2fce-4611-be48-855517b81bac" Text="[dtConfigs(2)(&quot;Value&quot;).ToString()]" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://member.hide.me/en/user/login" CVScreenId="93fc8d20-0eb1-4a28-a4f3-db3dd76f2968" CvElementArea="747, 526, 742, 94" CvType="InputBox" DesignTimeRectangle="752, 528, 735, 89" DesignTimeScaleFactor="1.5" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='username' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='username' tag='INPUT' type='text' aaname='Username' /&gt;" Guid="8a16f462-3fa3-4bc8-835a-9d855217af0e" InformativeScreenshot="2cf17d3f2c8735c51a5de9a87df235de.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Log in | hide.me' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="93fc8d20-0eb1-4a28-a4f3-db3dd76f2968" CvTextArea="1074, 472, 88, 30" CvTextArgument="Sign In" CvType="Text" DesignTimeRectangle="752, 465, 735, 41" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='H1' aaname='Sign In' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H1' type='' class='page-member__form__title' aaname='Sign In' check:innerText='Sign In' /&gt;" Guid="88f6821a-397d-4804-802c-df373f54fa13" SearchSteps="Selector, FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Password'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="1282.6666666666667,292.6666666666667" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="83820deb-2fce-4611-be48-855517b81bac" Text="[dtConfigs(3)(&quot;Value&quot;).ToString()]" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable CVScreenId="44557fb8-b487-442e-86ad-3b260097dc24" ContentHash="E3Ecjv5yBUuVSe3mWUmAtg" CvElementArea="747, 659, 742, 94" CvType="InputBox" DesignTimeRectangle="752, 662, 735, 89" DesignTimeScaleFactor="1.5" ElementType="InputBoxPassword" FullSelectorArgument="&lt;webctrl id='password' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='password' tag='INPUT' type='password' class='form-control js-password' placeholder='Password' aaname='Password' /&gt;" Guid="e26810b7-c1e2-4366-bf1f-1d9117fbb6a4" ImageBase64="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" InformativeScreenshot="d040f8f2576e1a799efde415f60eca90.png" Reference="MSf_1Qm2bk-GJpSvQz1yBQ/e7-dSdgg70GEsz88xW9e3Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Log in | hide.me' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="1282.6666666666667,4017.3333333333335" sap2010:WorkflowViewState.IdRef="RetryScope_2" NumberOfRetries="3" RetryInterval="00:00:05">
+              <ui:RetryScope.ActivityBody>
+                <ActivityAction>
+                  <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="1240.6666666666667,3517.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_19">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <Sequence DisplayName="Get Image Sequence" sap:VirtualizedContainerService.HintSize="1178.6666666666667,3432.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                      <Sequence.Variables>
+                        <Variable x:TypeArguments="x:String" Name="CaptchaSrc" />
+                      </Sequence.Variables>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1116.6666666666667,3322" sap2010:WorkflowViewState.IdRef="TryCatch_2">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <TryCatch.Try>
+                          <Sequence sap:VirtualizedContainerService.HintSize="1078,3060" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                            <Sequence.Variables>
+                              <Variable x:TypeArguments="x:String" Name="CaptchaText" />
+                              <Variable x:TypeArguments="ui:Image" Name="LoadedImg" />
+                            </Sequence.Variables>
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <uix:NGetAttributeGeneric x:TypeArguments="x:String" Attribute="src" DisplayName="Get Attribute 'Captcha IMG" sap:VirtualizedContainerService.HintSize="1016,243.33333333333334" sap2010:WorkflowViewState.IdRef="NGetAttributeGeneric`1_2" Result="[CaptchaSrc]" ScopeIdentifier="83820deb-2fce-4611-be48-855517b81bac" Version="V3">
+                              <uix:NGetAttributeGeneric.Target>
+                                <uix:TargetAnchorable BrowserURL="https://service.mtcaptcha.com/mtcv1/client/iframe.html?v=2024-03-24.15.24.45&amp;sitekey=MTPublic-LjJ4E1O96&amp;iframeId=mtcaptcha-iframe-1&amp;widgetSize=standard&amp;custom=false&amp;widgetInstance=mtcaptcha&amp;challengeType=standard&amp;theme=basic&amp;lang=en&amp;action=&amp;autoFadeOuterText=false&amp;host=https%3A%2F%2Fmember.hide.me&amp;hostname=member.hide.me&amp;serviceDomain=service.mtcaptcha.com&amp;textLength=0&amp;lowFrictionInvisible=&amp;enableMouseFlow=false" CVScreenId="8129c279-309d-46d4-9f11-715a11ce5329" CvTextArea="960, 838, 184, 94" CvTextArgument="TVYR" CvType="Text" DesignTimeRectangle="883, 547, 0, 0" DesignTimeScaleFactor="1.5" FullSelectorArgument="&lt;webctrl id='mtcaptcha-iframe-1' tag='IFRAME' /&gt;&lt;webctrl tag='IMG' aria-label='captcha image.' /&gt;" FuzzySelectorArgument="&lt;webctrl id='mtcaptcha-iframe-1' tag='IFRAME' /&gt;&lt;webctrl tag='IMG' aria-label='captcha image.' type='' class='mtcap-show-if-nocss' aaname='' /&gt;" Guid="e062c37a-57de-48ce-8d2d-26c53abc74ca" InformativeScreenshot="21f17ecce8e71da2da17a87df21d53a5.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Log in | hide.me' /&gt;" SearchSteps="Selector" Version="V3" Visibility="Interactive" />
+                              </uix:NGetAttributeGeneric.Target>
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                            </uix:NGetAttributeGeneric>
+                            <ui:InvokeCode ContinueOnError="{x:Null}" Code="  'Convert Base64 Encoded string to Byte Array.&#xA;    Dim imageBytes As Byte() = Convert.FromBase64String(Base64)&#xA; &#xA;    'Save the Byte Array as Image File.&#xA;   File.WriteAllBytes(FilePath, imageBytes)&#xA;   &#xA; Dim fileBytes As Byte()   = Convert.FromBase64String(Base64)''Convert Base64 to Byte Array&#xA;&#xA;                Using ms As New MemoryStream(fileBytes)''Using Memory stream to save image&#xA;&#xA;                    ConvertedImage = System.Drawing.Bitmap.FromStream(ms) ''Converting image from Memory stream&#xA;&#xA;                    If Not IsNothing(ConvertedImage) Then&#xA;                        &#xA;                        ''Save image to temp path&#xA;                       ConvertedImage.Save(FilePath, System.Drawing.Imaging.ImageFormat.Jpeg)&#xA;&#xA;                    End If&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;End Using" DisplayName="Invoke Code" sap:VirtualizedContainerService.HintSize="1016,197.33333333333334" sap2010:WorkflowViewState.IdRef="InvokeCode_2">
+                              <ui:InvokeCode.Arguments>
+                                <InArgument x:TypeArguments="x:String" x:Key="Base64">[CaptchaSrc.Substring(CaptchaSrc.IndexOf(",")+1)]</InArgument>
+                                <InArgument x:TypeArguments="x:String" x:Key="FilePath">img.jpg</InArgument>
+                                <OutArgument x:TypeArguments="sd:Image" x:Key="ConvertedImage" />
+                              </ui:InvokeCode.Arguments>
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                            </ui:InvokeCode>
+                            <ui:LoadImage DisplayName="Load Image" FileName="img.jpg" sap:VirtualizedContainerService.HintSize="1016,119.33333333333333" sap2010:WorkflowViewState.IdRef="LoadImage_3" Image="[LoadedImg]" />
+                            <p:ExtendedLanguagesOCR Endpoint="{x:Null}" Output="{x:Null}" PredictionId="{x:Null}" ApiKey="BpN1fxldBgsw06Hm/yH5WKr9m5O4AcUlIbfFFFigImrQyCuaJc4jY3NqmBHI5x3obdsr57EDJ5u1kWNWFdMwWg==" ComputeSkewAngle="False" DisplayName="UiPath Extended Languages OCR (Preview)" ExtractWords="True" sap:VirtualizedContainerService.HintSize="1016,57.333333333333336" sap2010:WorkflowViewState.IdRef="ExtendedLanguagesOCR_2" Image="[LoadedImg]" Language="auto" NoopExecution="False" Profile="None" Scale="1" Text="[CaptchaText]" Timeout="100000" />
+                            <InvokeMethod DisplayName="Invoke Method" sap:VirtualizedContainerService.HintSize="1016,167.33333333333334" sap2010:WorkflowViewState.IdRef="InvokeMethod_1" MethodName="Dispose">
+                              <InvokeMethod.TargetObject>
+                                <InArgument x:TypeArguments="uv:UiImage">[LoadedImg.UiImage]</InArgument>
+                              </InvokeMethod.TargetObject>
+                            </InvokeMethod>
+                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1016,179.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;UIPath Extended Language OCR Text : &quot;+CaptchaText]" />
+                            <If Condition="[not string.IsNullOrEmpty(CaptchaText)]" sap:VirtualizedContainerService.HintSize="1016,806.6666666666666" sap2010:WorkflowViewState.IdRef="If_1">
+                              <If.Then>
+                                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,330" sap2010:WorkflowViewState.IdRef="Sequence_15">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DeselectAfter="True" DisplayName="Type Into 'Captcha INPUT'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,245.33333333333334" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="83820deb-2fce-4611-be48-855517b81bac" Text="[CaptchaText]" Version="V3">
+                                    <uix:NTypeInto.Target>
+                                      <uix:TargetAnchorable CVScreenId="44557fb8-b487-442e-86ad-3b260097dc24" ContentHash="pggCJ2xo70ifBF3XBOjE4w" CvElementArea="903, 939, 382, 60" CvType="InputBox" DesignTimeRectangle="906, 927, 370, 50" DesignTimeScaleFactor="1.5" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='mtcaptcha-iframe-1' tag='IFRAME' /&gt;&lt;webctrl id='mtcap-inputtext-1' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='mtcaptcha-iframe-1' tag='IFRAME' /&gt;&lt;webctrl id='mtcap-inputtext-1' tag='INPUT' type='text' class='mtcap-noborder mtcap-inputtext mtcap-inputtext-custom' placeholder='Enter text from image' aaname='' /&gt;" Guid="b0427c02-caa5-4d99-acda-32aee0f1be32" InformativeScreenshot="2ea89919db2740d6aa4cc5f8fea30d2f.png" Reference="MSf_1Qm2bk-GJpSvQz1yBQ/y2ZveoJBMEagBJeUildiLw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Log in | hide.me' /&gt;" SearchSteps="FuzzySelector" Version="V3" Visibility="Interactive" />
+                                    </uix:NTypeInto.Target>
+                                  </uix:NTypeInto>
+                                </Sequence>
+                              </If.Then>
+                              <If.Else>
+                                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,304.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_16">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'INPUT mtcap-statusbutto…'" sap:VirtualizedContainerService.HintSize="354,220" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="83820deb-2fce-4611-be48-855517b81bac" Version="V3">
+                                    <uix:NClick.Target>
+                                      <uix:TargetAnchorable BrowserURL="https://service.mtcaptcha.com/mtcv1/client/iframe.html?v=2024-03-24.15.24.45&amp;sitekey=MTPublic-LjJ4E1O96&amp;iframeId=mtcaptcha-iframe-1&amp;widgetSize=standard&amp;custom=false&amp;widgetInstance=mtcaptcha&amp;challengeType=standard&amp;theme=basic&amp;lang=en&amp;action=&amp;autoFadeOuterText=false&amp;host=https%3A%2F%2Fmember.hide.me&amp;hostname=member.hide.me&amp;serviceDomain=service.mtcaptcha.com&amp;textLength=0&amp;lowFrictionInvisible=&amp;enableMouseFlow=false" CVScreenId="189b9c7a-4155-4c00-b476-561bfab6f233" CvElementArea="1275, 924, 61, 58" CvType="Button" DesignTimeRectangle="1279, 927, 55, 53" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;webctrl id='mtcaptcha-iframe-1' tag='IFRAME' /&gt;&lt;webctrl id='mtcap-statusbutton-1' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='mtcaptcha-iframe-1' tag='IFRAME' /&gt;&lt;webctrl id='mtcap-statusbutton-1' tag='INPUT' type='button' class='mtcap-noborder mtcap-mozbutton mtcap-statusbutton' aaname=' ' /&gt;" Guid="fda02b9a-8bcc-4a84-8b8f-b08da73ebff7" InformativeScreenshot="fd17a4a9ae581fb0c90890b9ca033cd4.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Log in | hide.me' /&gt;" SearchSteps="FuzzySelector" Version="V3" Visibility="Interactive" />
+                                    </uix:NClick.Target>
+                                    <uix:NClick.VerifyOptions>
+                                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                        <uix:VerifyExecutionOptions.Retry>
+                                          <InArgument x:TypeArguments="x:Boolean" />
+                                        </uix:VerifyExecutionOptions.Retry>
+                                        <uix:VerifyExecutionOptions.Timeout>
+                                          <InArgument x:TypeArguments="x:Double" />
+                                        </uix:VerifyExecutionOptions.Timeout>
+                                      </uix:VerifyExecutionOptions>
+                                    </uix:NClick.VerifyOptions>
+                                  </uix:NClick>
+                                </Sequence>
+                              </If.Else>
+                            </If>
+                            <uix:NCheckState DisplayName="Check App State 'Check App State 'Characters missing,''" sap:VirtualizedContainerService.HintSize="1016,1204.6666666666667" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="83820deb-2fce-4611-be48-855517b81bac" Timeout="5" Version="V3">
+                              <uix:NCheckState.IfExists>
+                                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,310.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_17">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'INPUT mtcap-statusbutto…'" sap:VirtualizedContainerService.HintSize="388,220" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="83820deb-2fce-4611-be48-855517b81bac" Version="V3">
+                                    <uix:NClick.Target>
+                                      <uix:TargetAnchorable BrowserURL="https://service.mtcaptcha.com/mtcv1/client/iframe.html?v=2024-03-24.15.24.45&amp;sitekey=MTPublic-LjJ4E1O96&amp;iframeId=mtcaptcha-iframe-1&amp;widgetSize=standard&amp;custom=false&amp;widgetInstance=mtcaptcha&amp;challengeType=standard&amp;theme=basic&amp;lang=en&amp;action=&amp;autoFadeOuterText=false&amp;host=https%3A%2F%2Fmember.hide.me&amp;hostname=member.hide.me&amp;serviceDomain=service.mtcaptcha.com&amp;textLength=0&amp;lowFrictionInvisible=&amp;enableMouseFlow=false" CVScreenId="e3d1e389-6a5f-4725-b695-8e1c8c3dcfad" ContentHash="XeBVEYZ7EUeLgci5KuCU5A" CvElementArea="1275, 924, 60, 58" CvType="Button" DesignTimeRectangle="1279, 927, 55, 53" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;webctrl id='mtcaptcha-iframe-1' tag='IFRAME' /&gt;&lt;webctrl id='mtcap-statusbutton-1' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='mtcaptcha-iframe-1' tag='IFRAME' /&gt;&lt;webctrl id='mtcap-statusbutton-1' tag='INPUT' type='button' class='mtcap-noborder mtcap-mozbutton mtcap-statusbutton' aaname=' ' /&gt;" Guid="1e5f406d-22a9-49c7-a97e-707da5302071" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADsAAAA5CAYAAACI7VO4AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAKgSURBVGhD7Zi/y3lRGMC//5PB9A4GBpsoWQxKrAYZlAwmJKOUlEwG9Q4GA4uIJGExMEmR5PWW/AjP23M79+1eP+/3e+/xreN86hl0npPnc8/Pe//AG/F+soVCgfmQybIMl2UVLssqXJZVuCyrcFlW4bKswmVZhcvSYrfbQbPZhGQyCS6XC5xOJ/j9fsjn8zAajeB0OpFMOrxM9nw+w/f3N6xWKxiPx5DNZsFsNoNOp/sNu90O9XqdmvRLR/aS/X4Pn5+fYDAYZNKxWAw2mw3J0g6qsljw8Xgkv+4zGAzAYrHIhEOhkObC1GRxqlqtVkin04qEW63W1QinUilFfZVCRRZFxZHS6/WKhHFN4zqWyqJ8v98nGerRXFYqKoZS4clkctU3kUhoNrqayt4SFQOFc7ncw8IPhwNEIhFZP4fDAfP5nGSoQzPZR6JiKBEuFotXfbrdLmlVhyaySkTFeCaMG9Vln1KpRFrVoVoWp16v1xOKxKjVauDxeGTF4oOoVCq/ORhfX1/C5aHRaAi7rhjhcFjWF8Pn88ly2u02+fe/Q5ORlXJr3dlsNphOpyRDDp6leImQ5j8KlP3XDUtzWSSTycgKNBqNMBwOSes1SoXViCJUZDudjrA2pYWWy2XSeptnwmpFESqy6/UavF6vrNhgMAjb7ZZk3OaWMD40pbewZ1CRRfCCLy364+ND2IyeIRXWUhShJotF42VeKozvsLPZjGTcB/vG43FNRRFqsshisQC3230lfG9nloLHEt6XtYSqLLJcLiEQCMiETSaTMM3xffaVUJdFcJTwCwR+ibiUjkajUK1WhYsGvgjQ5CWyIiiNUxiPIfE2hGcyHlW4TmnzUtn/DZdlFS7LKlyWVbgsq3BZVuGyrMJlWeW9ZVkPAIAfF9fGsXBEG24AAAAASUVORK5CYII=" InformativeScreenshot="2cfe828aeaec0d4715cfefbc5009a0e7.png" Reference="MSf_1Qm2bk-GJpSvQz1yBQ/uxj9y5ROl0yQiEhMOi4oMQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Log in | hide.me' /&gt;" SearchSteps="FuzzySelector, Image" Version="V3" Visibility="Interactive" />
+                                    </uix:NClick.Target>
+                                    <uix:NClick.VerifyOptions>
+                                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                        <uix:VerifyExecutionOptions.Retry>
+                                          <InArgument x:TypeArguments="x:Boolean" />
+                                        </uix:VerifyExecutionOptions.Retry>
+                                        <uix:VerifyExecutionOptions.Timeout>
+                                          <InArgument x:TypeArguments="x:Double" />
+                                        </uix:VerifyExecutionOptions.Timeout>
+                                      </uix:VerifyExecutionOptions>
+                                    </uix:NClick.VerifyOptions>
+                                  </uix:NClick>
+                                </Sequence>
+                              </uix:NCheckState.IfExists>
+                              <uix:NCheckState.IfNotExists>
+                                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="512,960.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_18">
+                                  <Sequence.Variables>
+                                    <Variable x:TypeArguments="x:Boolean" Name="NotChecked" />
+                                  </Sequence.Variables>
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,179.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_4" Message="[&quot;Charater missing field is invisible&quot;]" />
+                                  <ui:UiElementExists DisplayName="Element Exists 'P'" Exists="[NotChecked]" sap:VirtualizedContainerService.HintSize="450,139.33333333333334" sap2010:WorkflowViewState.IdRef="UiElementExists_1">
+                                    <ui:UiElementExists.Target>
+                                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="4993b52d-89d6-4262-9722-f4b37ebc9a90" InformativeScreenshot="dc66e8e31521190d74623a91f773aae6" Selector="&lt;webctrl id='mtcaptcha-iframe-1' tag='IFRAME' /&gt;&lt;webctrl id='mtcap-msglink-powered-by-1' tag='A' /&gt;">
+                                        <ui:Target.TimeoutMS>
+                                          <InArgument x:TypeArguments="x:Int32" />
+                                        </ui:Target.TimeoutMS>
+                                        <ui:Target.WaitForReady>
+                                          <InArgument x:TypeArguments="ui:WaitForReady" />
+                                        </ui:Target.WaitForReady>
+                                      </ui:Target>
+                                    </ui:UiElementExists.Target>
+                                  </ui:UiElementExists>
+                                  <If Condition="[NotChecked]" sap:VirtualizedContainerService.HintSize="450,551.3333333333334" sap2010:WorkflowViewState.IdRef="If_2">
+                                    <If.Then>
+                                      <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,304.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_22">
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'INPUT mtcap-statusbutto…'" sap:VirtualizedContainerService.HintSize="354,220" sap2010:WorkflowViewState.IdRef="NClick_11" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="83820deb-2fce-4611-be48-855517b81bac" Version="V3">
+                                          <uix:NClick.Target>
+                                            <uix:TargetAnchorable BrowserURL="https://service.mtcaptcha.com/mtcv1/client/iframe.html?v=2024-03-24.15.24.45&amp;sitekey=MTPublic-LjJ4E1O96&amp;iframeId=mtcaptcha-iframe-1&amp;widgetSize=standard&amp;custom=false&amp;widgetInstance=mtcaptcha&amp;challengeType=standard&amp;theme=basic&amp;lang=en&amp;action=&amp;autoFadeOuterText=false&amp;host=https%3A%2F%2Fmember.hide.me&amp;hostname=member.hide.me&amp;serviceDomain=service.mtcaptcha.com&amp;textLength=0&amp;lowFrictionInvisible=&amp;enableMouseFlow=false" CVScreenId="e3d1e389-6a5f-4725-b695-8e1c8c3dcfad" ContentHash="XeBVEYZ7EUeLgci5KuCU5A" CvElementArea="1275, 924, 60, 58" CvType="Button" DesignTimeRectangle="1279, 927, 55, 53" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;webctrl id='mtcaptcha-iframe-1' tag='IFRAME' /&gt;&lt;webctrl id='mtcap-statusbutton-1' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='mtcaptcha-iframe-1' tag='IFRAME' /&gt;&lt;webctrl id='mtcap-statusbutton-1' tag='INPUT' type='button' class='mtcap-noborder mtcap-mozbutton mtcap-statusbutton' aaname=' ' /&gt;" Guid="1e5f406d-22a9-49c7-a97e-707da5302071" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADsAAAA5CAYAAACI7VO4AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAKgSURBVGhD7Zi/y3lRGMC//5PB9A4GBpsoWQxKrAYZlAwmJKOUlEwG9Q4GA4uIJGExMEmR5PWW/AjP23M79+1eP+/3e+/xreN86hl0npPnc8/Pe//AG/F+soVCgfmQybIMl2UVLssqXJZVuCyrcFlW4bKswmVZhcvSYrfbQbPZhGQyCS6XC5xOJ/j9fsjn8zAajeB0OpFMOrxM9nw+w/f3N6xWKxiPx5DNZsFsNoNOp/sNu90O9XqdmvRLR/aS/X4Pn5+fYDAYZNKxWAw2mw3J0g6qsljw8Xgkv+4zGAzAYrHIhEOhkObC1GRxqlqtVkin04qEW63W1QinUilFfZVCRRZFxZHS6/WKhHFN4zqWyqJ8v98nGerRXFYqKoZS4clkctU3kUhoNrqayt4SFQOFc7ncw8IPhwNEIhFZP4fDAfP5nGSoQzPZR6JiKBEuFotXfbrdLmlVhyaySkTFeCaMG9Vln1KpRFrVoVoWp16v1xOKxKjVauDxeGTF4oOoVCq/ORhfX1/C5aHRaAi7rhjhcFjWF8Pn88ly2u02+fe/Q5ORlXJr3dlsNphOpyRDDp6leImQ5j8KlP3XDUtzWSSTycgKNBqNMBwOSes1SoXViCJUZDudjrA2pYWWy2XSeptnwmpFESqy6/UavF6vrNhgMAjb7ZZk3OaWMD40pbewZ1CRRfCCLy364+ND2IyeIRXWUhShJotF42VeKozvsLPZjGTcB/vG43FNRRFqsshisQC3230lfG9nloLHEt6XtYSqLLJcLiEQCMiETSaTMM3xffaVUJdFcJTwCwR+ibiUjkajUK1WhYsGvgjQ5CWyIiiNUxiPIfE2hGcyHlW4TmnzUtn/DZdlFS7LKlyWVbgsq3BZVuGyrMJlWeW9ZVkPAIAfF9fGsXBEG24AAAAASUVORK5CYII=" InformativeScreenshot="2cfe828aeaec0d4715cfefbc5009a0e7.png" Reference="MSf_1Qm2bk-GJpSvQz1yBQ/uxj9y5ROl0yQiEhMOi4oMQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Log in | hide.me' /&gt;" SearchSteps="FuzzySelector, Image" Version="V3" Visibility="Interactive" />
+                                          </uix:NClick.Target>
+                                          <uix:NClick.VerifyOptions>
+                                            <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                              <uix:VerifyExecutionOptions.Retry>
+                                                <InArgument x:TypeArguments="x:Boolean" />
+                                              </uix:VerifyExecutionOptions.Retry>
+                                              <uix:VerifyExecutionOptions.Timeout>
+                                                <InArgument x:TypeArguments="x:Double" />
+                                              </uix:VerifyExecutionOptions.Timeout>
+                                            </uix:VerifyExecutionOptions>
+                                          </uix:NClick.VerifyOptions>
+                                        </uix:NClick>
+                                      </Sequence>
+                                    </If.Then>
+                                    <If.Else>
+                                      <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,81.33333333333333" sap2010:WorkflowViewState.IdRef="Sequence_23">
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                      </Sequence>
+                                    </If.Else>
+                                  </If>
+                                </Sequence>
+                              </uix:NCheckState.IfNotExists>
+                              <uix:NCheckState.Target>
+                                <uix:TargetAnchorable BrowserURL="https://service.mtcaptcha.com/mtcv1/client/iframe.html?v=2024-03-24.15.24.45&amp;sitekey=MTPublic-LjJ4E1O96&amp;iframeId=mtcaptcha-iframe-1&amp;widgetSize=standard&amp;custom=false&amp;widgetInstance=mtcaptcha&amp;challengeType=standard&amp;theme=basic&amp;lang=en&amp;action=&amp;autoFadeOuterText=false&amp;host=https%3A%2F%2Fmember.hide.me&amp;hostname=member.hide.me&amp;serviceDomain=service.mtcaptcha.com&amp;textLength=0&amp;lowFrictionInvisible=&amp;enableMouseFlow=false" CVScreenId="663e978a-4a0e-4783-b33f-a41697a3161f" ContentHash="4MTI2PKiE06YxxUTF7YEtA" CvTextArea="963, 994, 361, 23" CvTextArgument="Characters missing, please complete..." CvType="Text" DesignTimeRectangle="905, 992, 421, 23" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;webctrl id='mtcaptcha-iframe-1' tag='IFRAME' /&gt;&lt;webctrl id='mtcap-invalid-msg-1' tag='P' /&gt;" FuzzySelectorArgument="&lt;webctrl id='mtcaptcha-iframe-1' tag='IFRAME' /&gt;&lt;webctrl id='mtcap-invalid-msg-1' tag='P' type='' class='mtcap-invalidmsg mtcap-invalidmsg-custom' check:innerText='Characters missing, please complete...' /&gt;" Guid="d85a8d0c-8553-4106-8ef3-84c3d86314a3" InformativeScreenshot="8d325fefbd7fa891a9e0fbc801177258.png" Reference="MSf_1Qm2bk-GJpSvQz1yBQ/Ci-81HqcuEOYSsKUVVdieg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Log in | hide.me' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+                              </uix:NCheckState.Target>
+                            </uix:NCheckState>
+                          </Sequence>
+                        </TryCatch.Try>
+                        <TryCatch.Catches>
+                          <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="1082.6666666666667,23.333333333333332" sap2010:WorkflowViewState.IdRef="Catch`1_2">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <ActivityAction x:TypeArguments="s:Exception">
+                              <ActivityAction.Argument>
+                                <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                              </ActivityAction.Argument>
+                              <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="AddSummary - Invoke Workflow File (AddSummary.xaml)" sap:VirtualizedContainerService.HintSize="334,115.33333333333333" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="AddSummary.xaml">
+                                <ui:InvokeWorkflowFile.Arguments>
+                                  <InArgument x:TypeArguments="x:String" x:Key="ErrorMessage">[exception.Message]</InArgument>
+                                  <InArgument x:TypeArguments="x:String" x:Key="UserID" />
+                                  <InArgument x:TypeArguments="ui:UiElement" x:Key="ElementRootCause">[AppElement]</InArgument>
+                                  <InArgument x:TypeArguments="x:String" x:Key="UserName" />
+                                  <InArgument x:TypeArguments="x:Boolean" x:Key="IsSuccess">False</InArgument>
+                                </ui:InvokeWorkflowFile.Arguments>
+                              </ui:InvokeWorkflowFile>
+                            </ActivityAction>
+                          </Catch>
+                        </TryCatch.Catches>
+                      </TryCatch>
+                    </Sequence>
+                  </Sequence>
+                </ActivityAction>
+              </ui:RetryScope.ActivityBody>
+              <ui:RetryScope.Condition>
+                <ActivityFunc x:TypeArguments="x:Boolean">
+                  <uix:NCheckState DisplayName="Check App State 'Characters missing,'" sap:VirtualizedContainerService.HintSize="954,306" sap2010:WorkflowViewState.IdRef="NCheckState_3" ScopeIdentifier="83820deb-2fce-4611-be48-855517b81bac" Timeout="5" Version="V3">
+                    <uix:NCheckState.IfExists>
+                      <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,84.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_20">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                      </Sequence>
+                    </uix:NCheckState.IfExists>
+                    <uix:NCheckState.IfNotExists>
+                      <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,84.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_21">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                      </Sequence>
+                    </uix:NCheckState.IfNotExists>
+                    <uix:NCheckState.Target>
+                      <uix:TargetAnchorable BrowserURL="https://service.mtcaptcha.com/mtcv1/client/iframe.html?v=2024-03-24.15.24.45&amp;sitekey=MTPublic-LjJ4E1O96&amp;iframeId=mtcaptcha-iframe-1&amp;widgetSize=standard&amp;custom=false&amp;widgetInstance=mtcaptcha&amp;challengeType=standard&amp;theme=basic&amp;lang=en&amp;action=&amp;autoFadeOuterText=false&amp;host=https%3A%2F%2Fmember.hide.me&amp;hostname=member.hide.me&amp;serviceDomain=service.mtcaptcha.com&amp;textLength=0&amp;lowFrictionInvisible=&amp;enableMouseFlow=false" CVScreenId="3bf8439c-c892-4c22-acf3-268b193bf58f" ContentHash="NcsL1aUZokWANB7qs6v99g" CvTextArea="1134, 994, 193, 22" CvType="AnyWordGroup" DesignTimeRectangle="905, 992, 421, 23" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;webctrl id='mtcaptcha-iframe-1' tag='IFRAME' /&gt;&lt;webctrl tag='P' /&gt;" FuzzySelectorArgument="&lt;webctrl id='mtcaptcha-iframe-1' tag='IFRAME' /&gt;&lt;webctrl tag='P' type='' class='' aaname='Verified Successfully' /&gt;" Guid="8dc67fde-aabf-4dbd-a48e-0f39e00655dd" ImageBase64="" InformativeScreenshot="6213ca7b02e0f74c7f0a0f0ee3eda74b.png" Reference="MSf_1Qm2bk-GJpSvQz1yBQ/M1CpaEqAEkOhL2AreUXiYw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Log in | hide.me' /&gt;" SearchSteps="FuzzySelector" Version="V3" Visibility="Interactive" />
+                    </uix:NCheckState.Target>
+                  </uix:NCheckState>
+                </ActivityFunc>
+              </ui:RetryScope.Condition>
+            </ui:RetryScope>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Log me in'" sap:VirtualizedContainerService.HintSize="1282.6666666666667,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="83820deb-2fce-4611-be48-855517b81bac" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="44557fb8-b487-442e-86ad-3b260097dc24" ContentHash="CfcY99SmQUKl8TZrDddcoQ" CvElementArea="748, 1059, 741, 97" CvTextArea="1050, 1093, 138, 36" CvTextArgument="Log me in" CvType="Button" DesignTimeRectangle="752, 1061, 735, 92" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='submit-btn' aaname='Log me in' check:text='Log me in' /&gt;" Guid="4a3279bd-77bb-4fab-83e9-521a1f160dda" ImageBase64="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" InformativeScreenshot="e274fb8e63adc7745dbbefb830913a0d.png" Reference="MSf_1Qm2bk-GJpSvQz1yBQ/rO0dxw9vc0i2-SfhfYWjPw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Log in | hide.me' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NClick>
+            <Sequence sap:VirtualizedContainerService.HintSize="1220.6666666666667,846" sap2010:WorkflowViewState.IdRef="Sequence_9">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Use Application: hide.me VPN" sap:VirtualizedContainerService.HintSize="450,730" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" OpenMode="IfNotOpen" ScopeGuid="d24d24a1-30d1-45f7-884a-1220dd3610c4" Timeout="60" Version="V2">
+                <uix:NApplicationCard.Body>
+                  <ActivityAction x:TypeArguments="x:Object">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                    </ActivityAction.Argument>
+                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,410.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <ui:Activate DelayBefore="{x:Null}" DelayMS="{x:Null}" DisplayName="Activate 'client  form'" sap:VirtualizedContainerService.HintSize="354,139.33333333333334" sap2010:WorkflowViewState.IdRef="Activate_1">
+                        <ui:Activate.Target>
+                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="ee1733cf-cb5f-4dfd-a661-6ce37a839c7b" InformativeScreenshot="f9ba50a858daf5bfd20ccae043766ae9" Selector="&lt;ctrl automationid='form' /&gt;">
+                            <ui:Target.TimeoutMS>
+                              <InArgument x:TypeArguments="x:Int32" />
+                            </ui:Target.TimeoutMS>
+                            <ui:Target.WaitForReady>
+                              <InArgument x:TypeArguments="ui:WaitForReady" />
+                            </ui:Target.WaitForReady>
+                          </ui:Target>
+                        </ui:Activate.Target>
+                      </ui:Activate>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Enable VPN'" sap:VirtualizedContainerService.HintSize="354,184" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d24d24a1-30d1-45f7-884a-1220dd3610c4" Version="V3">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable CVScreenId="6d446583-9739-4921-aae2-d0bad3965e17" CvElementArea="228, 586, 454, 74" CvTextArea="387, 610, 139, 26" CvTextArgument="Enable VPN" CvType="Button" DesignTimeRectangle="232, 588, 450, 70" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;ctrl automationid='btnProtection' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='btnProtection' role='push button' check:text='Enable VPN' /&gt;" Guid="f79c0b87-b4e2-4135-bb11-85f3e1898ade" InformativeScreenshot="b854578336d5c96393d8efeb97945a80.png" ScopeSelectorArgument="&lt;wnd app='hide.me.exe' cls='HwndWrapper*' title='hide.me VPN' /&gt;" SearchSteps="Selector, CV" Version="V3" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="6d446583-9739-4921-aae2-d0bad3965e17" CvElementArea="228, 586, 454, 74" CvTextArea="387, 610, 139, 26" CvTextArgument="Enable VPN" CvType="Button" DesignTimeRectangle="388, 605, 139, 36" ElementType="Text" FullSelectorArgument="&lt;ctrl automationid='btnProtection' /&gt;&lt;ctrl name='Enable VPN' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='btnProtection' /&gt;&lt;ctrl name='Enable VPN' role='text' automationid='' check:text='Enable VPN' /&gt;" Guid="fd1e00f8-86cd-471d-a582-afe005043357" SearchSteps="Selector, FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                      </uix:NClick>
+                    </Sequence>
+                  </ActivityAction>
+                </uix:NApplicationCard.Body>
+                <uix:NApplicationCard.TargetApp>
+                  <uix:TargetApp Area="266, 266, 914, 948" FilePath="C:\Program Files (x86)\hide.me VPN\hide.me.exe" IconBase64="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" InformativeScreenshot="fe1bee3f34f8057feb34c614e6ccd816.png" IsExactTitleEnabled="True" Selector="&lt;wnd app='hide.me.exe' cls='HwndWrapper*' title='hide.me VPN' /&gt;" Title="hide.me VPN" />
+                </uix:NApplicationCard.TargetApp>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </uix:NApplicationCard>
+            </Sequence>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-11, -11, 2262, 1350" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAIoSURBVDhPjVNPSBRRGJ91dmbeewNdOkWHDtGxg4fOXpOoQwSpkdBBBKPYgg6RG5aUVERBKSxGlCEpi0UhWKCsUvlnxlmokBIPHYLEtojQrZld4tf3njuzs8VShx9v9vv92fd9840GIPG/YPmfO2wvOCI8PyPcwOVe8KBuABG67ZQaueufELm1MTbsFPjMF4jFIAa/oEmhtgRLy4Ezp9wknPU0kc8J36WIT38Gy76GfjQF89L9PwKCrCa8Uic9zBECPr4C/vJbJOBTq+pko3kkO7vBJz9FnOLdoFWjh1Xh+hDzG5tmOsXcelVEN7AGJ6G3nwZ79DYeUN4yi62aTKEfv1TR+QH+4mtVRMFsaJb+PY2GfW0we+9FnO36M5VZIaEGFZoqYE+XIYfGpwtInrwM/VAHkl094Lk1xZPnVBQgQUU5PIiFYrUFOtmT9zC6B9DQ3ALz4l1Yt8cVZ3n+rpoACb4YXFPGGNjwPIzzGegH2mGcvRXWV0JPTYAEvdtBKZID5RMf1OTNqyNIpvpUiLyh7ZVuhPq/Aqig224wag29UkOUPeutx9UuGOf6wUY8sHy5KaavDVBFWiz27OOUvIl54Q7MKw9VmHnzMczr2SItnRFp48Y45Du2BiaWpUntiWyLFstI9UX9S9QNEPnidv3Ymf1s7M27yuA222npWtCaD+8MdXUDQpjpzG4yL1VCykZHT6O29+CekP9ngITtbGwjs/zAems5JH4DHPGcvmx9vGYAAAAASUVORK5CYII=" InformativeScreenshot="19ad4e571aa899a8890dea8e68de51e7.jpg" Selector="&lt;html app='chrome.exe' title='Log in | hide.me' /&gt;" Title="Log in | hide.me" Url="https://member.hide.me/en/user/login" />
+      </uix:NApplicationCard.TargetApp>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

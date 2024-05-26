@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Sign up",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "SFRi6FBA-0qHh92nIQccJg",
+  "Reference": "MSf_1Qm2bk-GJpSvQz1yBQ/SFRi6FBA-0qHh92nIQccJg",
+  "ParentRef": "MSf_1Qm2bk-GJpSvQz1yBQ/G5TX9BkB3kOSoaUlgyMs_Q",
+  "Created": "2024-05-21T00:06:34.6486379Z",
+  "Updated": "2024-05-21T00:06:34.6486379Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

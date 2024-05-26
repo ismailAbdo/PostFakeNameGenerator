@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="NcsL1aUZokWANB7qs6v99g" Reference="MSf_1Qm2bk-GJpSvQz1yBQ/M1CpaEqAEkOhL2AreUXiYw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://service.mtcaptcha.com/mtcv1/client/iframe.html?v=2024-03-24.15.24.45&amp;sitekey=MTPublic-LjJ4E1O96&amp;iframeId=mtcaptcha-iframe-1&amp;widgetSize=standard&amp;custom=false&amp;widgetInstance=mtcaptcha&amp;challengeType=standard&amp;theme=basic&amp;lang=en&amp;action=&amp;autoFadeOuterText=false&amp;host=https%3A%2F%2Fmember.hide.me&amp;hostname=member.hide.me&amp;serviceDomain=service.mtcaptcha.com&amp;textLength=0&amp;lowFrictionInvisible=&amp;enableMouseFlow=false" CVScreenId="3bf8439c-c892-4c22-acf3-268b193bf58f" CvTextArea="1134, 994, 193, 22" CvType="AnyWordGroup" DesignTimeRectangle="905, 992, 421, 23" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;webctrl id='mtcaptcha-iframe-1' tag='IFRAME' /&gt;&lt;webctrl tag='P' /&gt;" FuzzySelectorArgument="&lt;webctrl id='mtcaptcha-iframe-1' tag='IFRAME' /&gt;&lt;webctrl tag='P' type='' class='' aaname='Verified Successfully' /&gt;" Guid="8dc67fde-aabf-4dbd-a48e-0f39e00655dd" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Log in | hide.me' /&gt;" SearchSteps="FuzzySelector" Version="V3" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="6213ca7b02e0f74c7f0a0f0ee3eda74b.png" xmlns="">01inAzH7W90qR6a3icfyENw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

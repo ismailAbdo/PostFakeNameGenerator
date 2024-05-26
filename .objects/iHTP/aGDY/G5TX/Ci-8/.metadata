@@ -1,0 +1,17 @@
+﻿{
+  "Name": "CaptchaError",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "Ci-81HqcuEOYSsKUVVdieg",
+  "Reference": "MSf_1Qm2bk-GJpSvQz1yBQ/Ci-81HqcuEOYSsKUVVdieg",
+  "ParentRef": "MSf_1Qm2bk-GJpSvQz1yBQ/G5TX9BkB3kOSoaUlgyMs_Q",
+  "Created": "2024-05-26T03:39:25.9604671Z",
+  "Updated": "2024-05-26T03:39:49.8317501Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.4.2.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

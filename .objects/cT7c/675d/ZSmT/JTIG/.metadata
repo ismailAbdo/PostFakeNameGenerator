@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Occupation",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Id": "JTIGRVegDUaaMe15ssSRfA",
+  "Reference": "MSf_1Qm2bk-GJpSvQz1yBQ/JTIGRVegDUaaMe15ssSRfA",
+  "ParentRef": "MSf_1Qm2bk-GJpSvQz1yBQ/ZSmTkh4epEmxV82Kh7Vsmw",
+  "Created": "2024-05-20T21:52:37.5960888Z",
+  "Updated": "2024-05-20T21:53:41.9317732Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

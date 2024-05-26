@@ -1,0 +1,16 @@
+﻿{
+  "Name": "AccCreated",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "HulhYZ9LmEmGHgX9oCkJGQ",
+  "Reference": "MSf_1Qm2bk-GJpSvQz1yBQ/HulhYZ9LmEmGHgX9oCkJGQ",
+  "ParentRef": "MSf_1Qm2bk-GJpSvQz1yBQ/evQfDkA_QEKXvj7QeavaEQ",
+  "Created": "2024-05-17T15:02:00.1702286Z",
+  "Updated": "2024-05-17T15:02:24.2758278Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

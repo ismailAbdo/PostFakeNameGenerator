@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Automation Exercise",
+  "Type": "App",
+  "Id": "zKWNEAY_QE2VahG7f-yBxg",
+  "Reference": "MSf_1Qm2bk-GJpSvQz1yBQ/zKWNEAY_QE2VahG7f-yBxg",
+  "Created": "2024-05-17T14:59:06.7896917Z",
+  "Updated": "2024-05-17T15:01:54.6918844Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

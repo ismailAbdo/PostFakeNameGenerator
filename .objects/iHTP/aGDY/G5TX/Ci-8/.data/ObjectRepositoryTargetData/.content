@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="4MTI2PKiE06YxxUTF7YEtA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://service.mtcaptcha.com/mtcv1/client/iframe.html?v=2024-03-24.15.24.45&amp;sitekey=MTPublic-LjJ4E1O96&amp;iframeId=mtcaptcha-iframe-1&amp;widgetSize=standard&amp;custom=false&amp;widgetInstance=mtcaptcha&amp;challengeType=standard&amp;theme=basic&amp;lang=en&amp;action=&amp;autoFadeOuterText=false&amp;host=https%3A%2F%2Fmember.hide.me&amp;hostname=member.hide.me&amp;serviceDomain=service.mtcaptcha.com&amp;textLength=0&amp;lowFrictionInvisible=&amp;enableMouseFlow=false" CVScreenId="663e978a-4a0e-4783-b33f-a41697a3161f" CvTextArea="963, 994, 361, 23" CvTextArgument="Characters missing, please complete..." CvType="Text" DesignTimeRectangle="905, 992, 421, 23" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;webctrl id='mtcaptcha-iframe-1' tag='IFRAME' /&gt;&lt;webctrl id='mtcap-invalid-msg-1' tag='P' /&gt;" FuzzySelectorArgument="&lt;webctrl id='mtcaptcha-iframe-1' tag='IFRAME' /&gt;&lt;webctrl id='mtcap-invalid-msg-1' tag='P' type='' class='mtcap-invalidmsg mtcap-invalidmsg-custom' check:innerText='Characters missing, please complete...' /&gt;" Guid="d85a8d0c-8553-4106-8ef3-84c3d86314a3" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Log in | hide.me' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="8d325fefbd7fa891a9e0fbc801177258.png" xmlns="">0FZL1g4VBS0SDq9jH6FQSaw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

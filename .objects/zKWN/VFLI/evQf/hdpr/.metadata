@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Company",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "hdprI212_kev6_zHjMIqzQ",
+  "Reference": "MSf_1Qm2bk-GJpSvQz1yBQ/hdprI212_kev6_zHjMIqzQ",
+  "ParentRef": "MSf_1Qm2bk-GJpSvQz1yBQ/evQfDkA_QEKXvj7QeavaEQ",
+  "Created": "2024-05-17T14:59:08.1027485Z",
+  "Updated": "2024-05-17T14:59:08.1027485Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

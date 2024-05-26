@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome: Generate a Random Name -*",
+  "Type": "Screen",
+  "Id": "ZSmTkh4epEmxV82Kh7Vsmw",
+  "Reference": "MSf_1Qm2bk-GJpSvQz1yBQ/ZSmTkh4epEmxV82Kh7Vsmw",
+  "ParentRef": "MSf_1Qm2bk-GJpSvQz1yBQ/675dUoUSJUyJertRqQiT7Q",
+  "Created": "2024-05-20T21:52:35.7032041Z",
+  "Updated": "2024-05-20T21:52:35.7032041Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

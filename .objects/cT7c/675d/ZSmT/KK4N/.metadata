@@ -1,0 +1,13 @@
+﻿{
+  "Name": "EmailAddress",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Id": "KK4NHk0R00KRTJcrsDn2GQ",
+  "Reference": "MSf_1Qm2bk-GJpSvQz1yBQ/KK4NHk0R00KRTJcrsDn2GQ",
+  "ParentRef": "MSf_1Qm2bk-GJpSvQz1yBQ/ZSmTkh4epEmxV82Kh7Vsmw",
+  "Created": "2024-05-20T21:52:36.9038385Z",
+  "Updated": "2024-05-20T21:52:36.9038385Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

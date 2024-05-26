@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Year",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "Nb7nKBPZK0i9hwSZJ4a5KA",
+  "Reference": "MSf_1Qm2bk-GJpSvQz1yBQ/Nb7nKBPZK0i9hwSZJ4a5KA",
+  "ParentRef": "MSf_1Qm2bk-GJpSvQz1yBQ/evQfDkA_QEKXvj7QeavaEQ",
+  "Created": "2024-05-17T14:59:07.6351525Z",
+  "Updated": "2024-05-17T14:59:07.6351525Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ta-awWYENUC5aQ_I0Thsow" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://automationexercise.com/delete_account" CVScreenId="b41ddaac-82db-45be-8eba-cf0f780d7b0c" CvTextArea="891, 558, 281, 24" CvTextArgument="ACCOUNT DELETED!" CvType="Text" DesignTimeRectangle="895, 556, 278, 30" DesignTimeScaleFactor="1.5" FullSelectorArgument="&lt;webctrl tag='B' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='B' type='' class='' aaname='Account Deleted!' check:innerText='ACCOUNT DELETED!' /&gt;" Guid="312cc6dd-7272-4bba-8aac-a892bd081756" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise - Account Created' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V3" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="bef041bb6d43c1d237337cf93f612b01.png" xmlns="">098rCmGQXIkeseQamgJzXCA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

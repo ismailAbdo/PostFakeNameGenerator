@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Gender",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "Zcxa7StzhEqZCpMOiAp6Wg",
+  "Reference": "MSf_1Qm2bk-GJpSvQz1yBQ/Zcxa7StzhEqZCpMOiAp6Wg",
+  "ParentRef": "MSf_1Qm2bk-GJpSvQz1yBQ/ZSmTkh4epEmxV82Kh7Vsmw",
+  "Created": "2024-05-20T21:52:35.8415906Z",
+  "Updated": "2024-05-20T21:52:35.8415906Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

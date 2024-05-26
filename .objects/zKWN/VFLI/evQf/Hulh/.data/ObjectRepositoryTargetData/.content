@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Z7Yso3geMkujIExGAqFlDA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://automationexercise.com/account_created" CVScreenId="db4383e8-3211-4041-8041-152fa579029c" CvTextArea="891, 558, 282, 25" CvTextArgument="ACCOUNT CREATED!" CvType="Text" DesignTimeRectangle="894, 556, 280, 30" DesignTimeScaleFactor="1.5" FullSelectorArgument="&lt;webctrl tag='B' aaname='Account Created!' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='B' type='' class='' aaname='Account Created!' check:innerText='ACCOUNT CREATED!' /&gt;" Guid="020f905f-942e-4ed8-a99d-5be0d8f214c1" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise - Account Created' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V3" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="8a949654348a113653031ec71c40b483.png" xmlns="">0NsY0OKcp_UK3KXN_YkUWXg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

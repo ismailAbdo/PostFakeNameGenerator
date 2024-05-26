@@ -1,0 +1,16 @@
+﻿{
+  "Name": "DeleteAcc",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "Y58RxDEUcU6fJEM2A4UjZQ",
+  "Reference": "MSf_1Qm2bk-GJpSvQz1yBQ/Y58RxDEUcU6fJEM2A4UjZQ",
+  "ParentRef": "MSf_1Qm2bk-GJpSvQz1yBQ/evQfDkA_QEKXvj7QeavaEQ",
+  "Created": "2024-05-17T15:02:38.8196595Z",
+  "Updated": "2024-05-17T15:03:13.5156266Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
